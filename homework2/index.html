@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сервис комментариев</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Оставьте комментарий</h1>
+        
+        <form id="commentForm">
+            <div>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" required>
+            </div>
+    
+            <div>
+                <label for="avatar">Ссылка на аватар:</label>
+                <input type="url" id="avatar" required>
+            </div>
+    
+            <div>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" required></textarea>
+            </div>
+    
+            <div>
+                <label for="showName">Показать имя:</label>
+                <input type="checkbox" id="showName">
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    
+        <div id="commentsSection">
+            <h2>Комментарии</h2>
+        </div>    
+    </div>
+<script src="/homework2/index.js"></script>
+</body>
+</html>

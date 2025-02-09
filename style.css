@@ -1,0 +1,51 @@
+body {
+    font-family: 'Didot', serif;
+    background-color: darkslateblue;
+}
+.container {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    color: skyblue;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+#calculateButton {
+    font-size: 20px;
+    background-color: skyblue;
+    color: darkslateblue;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    padding: 10px;;
+}
+
+#calculateButton:hover {
+    background-color: dodgerblue;
+}
+
+#birthday {
+    border: none;
+    color: darkslateblue;
+    font-size: 20px;
+    border-radius: 10px 0 0 10px;
+    padding: 8px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#errorMessage {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
